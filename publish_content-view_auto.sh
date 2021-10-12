@@ -10,7 +10,7 @@
 MDATE=`date +%B-%Y`
 DESC="'Patching $MDATE'"
 LOGS=./publish_content-view_auto.log
-MAILING="fabien.roffet@honeywell.com, Bill.Hogan2@Honeywell.com, Arikumar.Venkatesamurthy@Honeywell.com, Amol.Deshmukh3@Honeywell.com, Bhanuchandra.Kommalapati@Honeywell.com, Jiri.Behuncik@Honeywell.com"
+MAILING="fabien.roffet@corp.cz"
 
 if [ "$1" != "" ]; then
         echo "Organization :" $1
